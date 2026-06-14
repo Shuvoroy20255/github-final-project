@@ -1,0 +1,15 @@
+# ১. Git shuru korar jonno
+git init
+
+# ২. Ei repository-r sathe computer-er project-ke connect korar jonno (Copy kora link-ti boshaben)
+git remote add origin https://github.com/Shuvoroy20255/github-final-project.git
+
+# ৩. Shob file add korar jonno
+git add .
+
+# ৪. Commit korar jonno
+git commit -m "My project files"
+
+# ৫. GitHub-e file pathanor jonno
+git branch -M main
+git push -u origin main
